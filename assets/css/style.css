@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    background-image: url(https://myclone.files.wordpress.com/2011/02/home-hangman-photoshopped.jpg);
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+
+
+h1, h2 {
+    padding: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.jumbotron {
+    background-image: url(https://myclone.files.wordpress.com/2011/02/home-hangman-photoshopped.jpg);
+}
+
+.jumbotron>h1 {
+   font-family: 'Wendy One', sans-serif;
+    color: #800000;
+}
+
+
+
+#gameboard {
+    width: auto;
+    font-family: 'Wendy One', sans-serif;;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+#status-bar {
+    padding: 5px;
+    font-size: 24px;
+}
+
+#word-stage {
+    padding: 40px 10px;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #800000;
+    font-family: 'Wendy One', sans-serif;
+}
+
